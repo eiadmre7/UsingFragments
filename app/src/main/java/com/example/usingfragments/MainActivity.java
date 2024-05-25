@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements ListFrag.ItemSele
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        String myname="";
         details=getResources().getStringArray(R.array.descriptions);
         //device in portrait mode...
         if(findViewById(R.id.Layout_portrait)!=null){
